@@ -1,0 +1,8 @@
+.git
+.gitignore
+.idea
+*.md
+users_saved/*.txt
+database.txt
+file_io_.o
+consumers/
