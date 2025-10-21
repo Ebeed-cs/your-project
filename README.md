@@ -11,9 +11,8 @@ A simple REST API built with Go that persists user data to disk. Each user is st
 
 ## Docker Hub Image
 
-**Direct Link:** `https://hub.docker.com/r/YOUR_DOCKERHUB_USERNAME/go-user-api`
+**Direct Link:** `https://hub.docker.com/r/ebeed/go-user-api`
 
-*(Replace YOUR_DOCKERHUB_USERNAME with your actual Docker Hub username)*
 
 ## API Endpoints
 
@@ -37,8 +36,8 @@ GET http://localhost:3000/users?id=1
 
 ### Pull and Run from Docker Hub
 ```bash
-docker pull YOUR_DOCKERHUB_USERNAME/go-user-api:latest
-docker run -p 3000:3000 YOUR_DOCKERHUB_USERNAME/go-user-api:latest
+docker pull ebeed/go-user-api:latest
+docker run -p 3000:3000 ebeed/go-user-api:latest
 ```
 
 ### Build Locally
